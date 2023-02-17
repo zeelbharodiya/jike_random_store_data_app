@@ -11,7 +11,7 @@ class APIHelper{
   APIHelper._();
   static final APIHelper apiHelper = APIHelper._();
 
-  List? storeData = [];
+  List<String> storeData = [];
 
   Future<Jokes?> feachData() async {
 
